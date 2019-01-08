@@ -15,13 +15,19 @@ public class MenuItem {
 
 
 
+
+
+
+
 	public MenuItem(String menuItemName, String menuItemLink) {
-		//parameterised constructor
 		super();
 		this.menuItemName = menuItemName;
 		this.menuItemLink = menuItemLink;
-		
 	}
+
+
+
+
 
 
 

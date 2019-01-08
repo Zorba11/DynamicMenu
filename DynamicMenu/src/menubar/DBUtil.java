@@ -16,7 +16,7 @@ public class DBUtil {
 			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","hr","admin");
 			//takes 3 parameters DbURL,Username and password
 			
-			
+			System.out.println("connected to the database");
 			
 		}
 		catch(Exception e) {
